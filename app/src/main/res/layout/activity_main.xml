@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context="com.android.fruities.MainActivity">
+
+   <TextView
+       android:id="@+id/ch_letter"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="@string/choose_letter"
+       android:textAppearance="?android:textAppearanceSmall"
+       android:textColor="@color/colorPrimary"/>
+
+    <android.support.v7.widget.AppCompatSpinner
+        android:id="@+id/letter_spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/ch_letter"
+        android:layout_toEndOf="@+id/ch_letter"
+        android:entries="@array/letters"
+        android:textAlignment="center"
+        android:spinnerMode="dialog"/>
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Apple"
+        android:layout_below="@+id/letter_spinner"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:textColor="@android:color/black"/>
+
+    <ImageView
+        android:id="@+id/fruit_image"
+        android:layout_width="200dp"
+        android:layout_height="250dp"
+        android:src="@drawable/apple"
+        android:scaleType="fitCenter"
+        android:layout_below="@+id/name"
+        android:layout_centerInParent="true"/>
+
+    <TextView
+        android:id="@+id/info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fruit_image"
+        android:text="@string/apple_info"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:textColor="@android:color/black"/>
+
+</RelativeLayout>

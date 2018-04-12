@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Fruities</string>
+    <string name="choose_letter">Choose Letter</string>
+    <string name="apple">Apple</string>
+    <string name="apple_info">Apples contain vitamin C and vitamin A as a powerful antioxidant. They also contain a significant amount of fiber, which can help prevent absorption cholesterol.</string>
+    <string name="banana">Banana</string>
+    <string name="banana_info">It is loaded with essential vitamins and minerals such as potassium, calcium, manganese, magnesium, iron, folate, niacin, riboflavin, and B6. These all contribute to the proper functioning of the body and keeping you healthy.</string>
+
+    <string name="kiwi">Kiwi</string>
+    <string name="kiwi_info">It is full of nutrients like vitamin C, vitamin K, vitamin E, folate, and potassium. They also have a lot of antioxidants and are a good source of fiber.</string>
+
+    <string name="mango">mango</string>
+    <string name="mango_info">Mangos are also an excellent source of dietary fiber and vitamin B6, as well as a good source of vitamin A and vitamin C. They are rich in minerals like potassium, magnesium, and copper, and they are one of the best sources of quercetin, beta-carotene, and astragalin.</string>
+
+    <string name="orange">orange</string>
+    <string name="orange_info">Oranges are an excellent source of vitamin C. They are also a very good source of dietary fiber. In addition, oranges are a good source of B vitamins including vitamin B1, pantothenic acid and folate as well as vitamin A, calcium, copper and potassium.</string>
+
+    <string name="pomegranate">Pomegranate</string>
+    <string name="pomegranate_info">Pomegranate are a source of fibre, B vitamins, vitamin C, vitamin K and potassium.</string>
+
+    <string name="strawberry">strawberry</string>
+    <string name="strawberry_info">strawberries contain iron, copper, magnesium, phosphorus, vitamin B6, vitamin K and vitamin E. Bottom line: Strawberries are a good source of vitamin C, manganese, folate (B9) and potassium</string>
+
+    <string-array name="letters">
+        <item>A</item>
+        <item>B</item>
+        <item>K</item>
+        <item>M</item>
+        <item>O</item>
+        <item>P</item>
+    </string-array>
+</resources>
